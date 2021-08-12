@@ -36,3 +36,25 @@ const myName = "Python";
 
 console.log("Hello " + myName);
 ////////////////////////////////////////////////////////////////////////////////////
+
+/* const and let */
+const a = 5;
+const b = 2;
+let myName = "Javascript";
+
+console.log(a + b);
+console.log(a * b);
+console.log(a / b);
+console.log("I hate " + myName);
+
+myName = "Python";
+console.log("I hate " + myName + ", too");
+////////////////////////////////////////////////////////////////////////////////////
+
+/* Booleans */
+const myName = "Javascript";
+let amIFat;
+
+console.log(myName === "Javascript");
+console.log(amIFat);
+////////////////////////////////////////////////////////////////////////////////////
